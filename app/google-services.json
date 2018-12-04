@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "573891001770",
-    "firebase_url": "https://ios-apps-ddbaa.firebaseio.com",
-    "project_id": "ios-apps-ddbaa",
-    "storage_bucket": "ios-apps-ddbaa.appspot.com"
+    "project_number": "133241788568",
+    "firebase_url": "https://bitnami-obgzft2gdg.firebaseio.com",
+    "project_id": "bitnami-obgzft2gdg",
+    "storage_bucket": "bitnami-obgzft2gdg.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:573891001770:android:0f8c9f30518d0214",
+        "mobilesdk_app_id": "1:133241788568:android:079203617d4e8808",
         "android_client_info": {
           "package_name": "com.hypericum.hypapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "573891001770-qa1rs9m01gjtunitkdm8g5amlelb40rq.apps.googleusercontent.com",
+          "client_id": "133241788568-j2qsra9sj4juic47sh5pu8br0bb8s6qv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAGQwsEQXBhayMJ5F0QdyirKPsdGLXUG3k"
+          "current_key": "AIzaSyBt0pQr1lk9S8zpsjo1Ul1GTeBxQCPOrq8"
         }
       ],
       "services": {
