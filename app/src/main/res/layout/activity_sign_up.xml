@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/crMain"
+    android:padding="@dimen/value_10"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/value_3"
+            android:paddingLeft="@dimen/font_8"
+            android:paddingRight="@dimen/font_8"
+            android:paddingTop="@dimen/value_10"
+            android:paddingStart="@dimen/font_8"
+            android:paddingEnd="@dimen/font_8">
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_15"
+                android:layout_marginBottom="@dimen/value_20"
+                android:src="@drawable/logo"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/value_8"
+                android:theme="@style/TextLabegray">
+
+                <com.hypericum.hypapp.customview.edittext.EditTextRegular
+                    android:id="@+id/etUsername"
+                    style="@style/txt_gray_medium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_user"
+                    android:drawablePadding="@dimen/font_10"
+                    android:hint="@string/user_name"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="@dimen/value_8"
+                    android:singleLine="true"
+                    android:theme="@style/Theme.App.Base"
+                    android:gravity="start" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/value_1"
+                android:theme="@style/TextLabegray">
+
+                <com.hypericum.hypapp.customview.edittext.EditTextRegular
+                    android:id="@+id/etEmail"
+                    style="@style/txt_gray_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_mail"
+                    android:drawablePadding="@dimen/font_10"
+                    android:hint="@string/email"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="@dimen/value_8"
+                    android:singleLine="true"
+                    android:gravity="start" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/value_1"
+                android:theme="@style/TextLabegray">
+
+                <com.hypericum.hypapp.customview.edittext.EditTextRegular
+                    android:id="@+id/etContact"
+                    style="@style/txt_gray_medium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_phone_call"
+                    android:drawablePadding="@dimen/value_8"
+                    android:hint="@string/contact_number"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:inputType="number"
+                    android:paddingBottom="@dimen/value_10"
+                    android:singleLine="true"
+                    android:gravity="start" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/value_1"
+                android:theme="@style/TextLabegray">
+
+                <com.hypericum.hypapp.customview.edittext.EditTextRegular
+                    android:id="@+id/etPass"
+                    style="@style/txt_gray_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_password"
+                    android:drawablePadding="@dimen/value_8"
+                    android:hint="@string/password"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:inputType="textPassword"
+                    android:paddingBottom="@dimen/value_10"
+                    android:singleLine="true"
+                    android:gravity="start" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/value_1"
+                android:theme="@style/TextLabegray">
+
+                <com.hypericum.hypapp.customview.edittext.EditTextRegular
+                    android:id="@+id/etConfirmPass"
+                    style="@style/txt_gray_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_password"
+                    android:drawablePadding="@dimen/font_10"
+                    android:hint="@string/confirm_password"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:inputType="textPassword"
+                    android:paddingBottom="@dimen/value_8"
+                    android:singleLine="true"
+                    android:gravity="start" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <com.hypericum.hypapp.customview.textview.TextViewLight
+                android:id="@+id/tvSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_20"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="@dimen/value_8"
+                android:paddingTop="@dimen/value_8"
+                android:text="@string/sign_up"
+                android:textColor="@color/white" />
+
+            <com.hypericum.hypapp.customview.textview.TextViewLight
+                android:id="@+id/tvAlreadyAccount"
+                style="@style/txt_color_primary_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_15"
+                android:text="@string/already_account"
+                android:textAlignment="center" />
+
+            <com.hypericum.hypapp.customview.textview.TextViewLight
+                android:id="@+id/tvSignInNow"
+                style="@style/txt_color_primary_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/value_15"
+                android:text="@string/sign_in_now" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

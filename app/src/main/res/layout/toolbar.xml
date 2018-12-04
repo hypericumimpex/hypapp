@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:elevation="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:layout_gravity="start|center"
+            android:gravity="start|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/value_8"
+                android:layout_marginRight="@dimen/value_1"
+                app:srcCompat="@drawable/ic_back_white"
+                android:layout_marginStart="@dimen/value_8"
+                android:layout_marginEnd="@dimen/value_1" />
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/value_5"
+                android:paddingRight="@dimen/value_2"
+                android:layout_marginStart="@dimen/value_5"
+                android:src="@drawable/logo"
+                android:paddingTop="@dimen/value_8"
+                android:paddingBottom="@dimen/value_5"
+                android:paddingEnd="@dimen/value_5" />
+
+            <com.hypericum.hypapp.customview.textview.TextViewBold
+                android:id="@+id/tvTitle"
+                style="@style/txt_white_big"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/value_10"
+                android:gravity="center"
+                android:text="CiyaShop"
+                android:layout_marginEnd="@dimen/value_10" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/value_4"
+            android:layout_marginRight="@dimen/value_4"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_search_white"
+            android:layout_marginStart="@dimen/value_4"
+            android:layout_marginEnd="@dimen/value_4" />
+
+        <ImageView
+            android:id="@+id/ivNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/value_4"
+            android:layout_marginRight="@dimen/value_4"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_notification_white"
+            android:layout_marginEnd="@dimen/value_4"
+            android:layout_marginStart="@dimen/value_4" />
+
+        <FrameLayout
+            android:id="@+id/flCart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/value_4"
+            android:layout_marginRight="@dimen/value_4"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/value_4"
+            android:layout_marginEnd="@dimen/value_4">
+
+            <ImageView
+                android:id="@+id/ivCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/value_2"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_shopping_cart_white"
+                android:layout_marginEnd="@dimen/value_2" />
+
+            <com.hypericum.hypapp.customview.textview.TextViewRegular
+                android:id="@+id/tvToolCart"
+                style="@style/txt_white_micro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:layout_marginTop="@dimen/value_3"
+                android:background="@drawable/black_round_corner_button"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/value_1.5"
+                android:paddingLeft="@dimen/value_3"
+                android:paddingRight="@dimen/value_3"
+                android:paddingTop="@dimen/value_1.5"
+                android:text="1"
+                android:textDirection="locale"
+                android:textAlignment="viewEnd"
+                android:paddingEnd="@dimen/value_3"
+                android:paddingStart="@dimen/value_3" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

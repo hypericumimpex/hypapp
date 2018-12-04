@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "573891001770",
+    "firebase_url": "https://ios-apps-ddbaa.firebaseio.com",
+    "project_id": "ios-apps-ddbaa",
+    "storage_bucket": "ios-apps-ddbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573891001770:android:0f8c9f30518d0214",
+        "android_client_info": {
+          "package_name": "com.hypericum.hypapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573891001770-qa1rs9m01gjtunitkdm8g5amlelb40rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGQwsEQXBhayMJ5F0QdyirKPsdGLXUG3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
