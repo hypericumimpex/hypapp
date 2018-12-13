@@ -9,9 +9,6 @@ import com.hypericum.hypapp.fcm.MyNotificationOpenedHandler;
 import com.hypericum.hypapp.fcm.MyNotificationReceivedHandler;
 
 
-/**
- * Created by Bhumi Shah on 12/23/2017.
- */
 
 public class MyApplication extends Application {
 

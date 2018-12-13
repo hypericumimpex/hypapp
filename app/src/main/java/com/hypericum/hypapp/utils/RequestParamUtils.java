@@ -1,9 +1,5 @@
 package com.hypericum.hypapp.utils;
 
-/**
- * Created by Bhumi Shah on 11/21/2017.
- */
-
 public class RequestParamUtils {
 
     public static final String CUSTOMER = "customer";

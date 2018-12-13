@@ -3,9 +3,8 @@
 
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 
-    <string name="facebook_app_id" translatable="false"> Add your facebook app_id</string> // Add your facebook app_id
-    <string name="fb_login_protocol_scheme" translatable="false">fb Add your facebook app_id</string> //Add your facebook protocol_scheme
-
+    <string name="facebook_app_id" translatable="false">341483319735512</string> // Add your facebook app_id
+    <string name="fb_login_protocol_scheme" translatable="false">fb341483319735512d</string> //Add your facebook protocol_scheme
 
     <string name="footer">\© Hypericum Impex 2018|All rights reserved</string>
     `

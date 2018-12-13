@@ -19,10 +19,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * Created by Bhumi Shah on 11/21/2017.
- */
-
 public class Constant {
 
     public static final String MyPREFERENCES = "com.hypericum.hypapp";
@@ -31,7 +27,7 @@ public class Constant {
 
     public static final String DeepLinkDomain = "hypericum.page.link";
 
-    public static final String DynamicLinkIosParameters = "com.hypericum.HypApp";
+    public static final String DynamicLinkIosParameters = "com.hypericum.hypapp";
 
     public static final String DEVICE_TYPE = "2";
 
