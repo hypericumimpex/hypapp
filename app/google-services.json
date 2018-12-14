@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "133241788568-i378bk58gbiegujvsk7dugcl3hs05pjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hypericum.hypapp",
+            "certificate_hash": "09db96e466d4d41d1e139ea6428cbb1c149e68cb"
+          }
+        },
+        {
           "client_id": "133241788568-j2qsra9sj4juic47sh5pu8br0bb8s6qv.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133241788568-j2qsra9sj4juic47sh5pu8br0bb8s6qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
